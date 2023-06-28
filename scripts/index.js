@@ -1,15 +1,15 @@
-const featuredSpeakers = [
+const featureSpeakers = [
   {
     id: 1,
-    name: 'Zmaryal',
-    title: 'Focus on what you lift.',
+    name: 'Rashid Khan',
+    title: 'Focus on what you are Doing.',
     description: 'The pain you suffer today is the sign of tomorrow’s victory.',
     featured_image: './img/speaker_01.png',
     alt_message: 'Featured item-one',
   },
   {
     id: 2,
-    name: 'Ustad Atal',
+    name: 'Usman Ahmadi',
     title: 'We will help you to shape your muscles.',
     description: 'Nothing tastes as good as being fit feels. Success never comes to those who quit.',
     featured_image: './img/speaker_02.png',
@@ -18,39 +18,22 @@ const featuredSpeakers = [
 
   {
     id: 3,
-    name: 'Sarah Ali',
+    name: 'Nazoo',
     title: 'Persist Until Something Happens.',
-    description: 'Persist Until Something Happens.Power, perseverance, and discipline.',
+    description: 'Focus Until Something Happens.Power, perseverance, and discipline.',
     featured_image: './img/speaker_03.png',
     alt_message: 'Featured item-Three',
   },
   {
     id: 4,
     class: 'hide',
-    name: 'Malala Hargez',
+    name: 'Gulalai Mangal',
     title: 'Slow progress is better than no progress',
     description: 'Push harder today if you want a different tomorrow.Where fitness comes naturally.',
     featured_image: './img/speaker_04.png',
     alt_message: 'featured item-four',
   },
-  {
-    id: 5,
-    class: 'hide',
-    name: 'Alia Mohammed',
-    title: 'Do it because they said you couldn’t.',
-    description: 'Do it because they said you couldn’t.The best way to predict your future is to create it.',
-    featured_image: './img/speaker_05.png',
-    alt_message: 'featured-item-Five',
-  },
-  {
-    id: 6,
-    class: 'hide',
-    name: 'Dawood Parhez',
-    title: 'Success never comes to those who quit.',
-    description: 'Success never comes to those who quit. Passionate experts energize lives.',
-    featured_image: './img/speaker_06.png',
-    alt_message: 'Alexa Martin- Filmmaker Six',
-  },
+  
 ];
 
 const featuredSect = document.querySelector('#featured-section');
@@ -69,7 +52,7 @@ const speakerSect = document.createElement('div');
 speakerSect.classList.add('speakers-sect');
 featuredSect.appendChild(speakerSect);
 
-featuredSpeakers.forEach((featuredSpeaker) => {
+featureSpeakers.forEach((featuredSpeaker) => {
   const speakerSegment = document.createElement('div');
   speakerSegment.classList.add('speaker-segment', `${featuredSpeaker.class}`);
   speakerSect.appendChild(speakerSegment);
