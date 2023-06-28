@@ -5,6 +5,7 @@
 - [📗 Table of Content's](#-table-of-contents)
 - [Project Name](#project-name)
   - [Built With](#built-with)
+    - [Key Features ](#key-features-)
   - [Live Demo (if available)](#live-demo-if-available)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
@@ -14,6 +15,7 @@
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [Authors](#authors)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing](#-contributing)
   - [Show your support](#show-your-support)
   - [Acknowledgments](#acknowledgments)
@@ -31,6 +33,14 @@
 - CSS
 - JavaScript
 - Bootstrap
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+I find the following features to be intresting:
+
+- **The Layout of Website**
+- **Flexbox and grid for structuring instead of floats**
 
 ## Live Demo (if available)
 
@@ -64,6 +74,16 @@ This is already deployet just checkout the demo link
 - GitHub: [@sulaimanahmadi](https://github.com/sulaimanahmadi)
 - Twitter: [@Sulaiman Ahamdi](https://twitter.com/sahmadi4all)
 - LinkedIn: [@Sulaiman Ahmadi](https://www.linkedin.com/in/mohammad-sulaiman-ahmadi-555315261/)
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+In the future, I will Add 
+
+- [ ] **Featured section**
+- [ ] **About section**
+- [ ] **Desktop Version**
 
 ## 🤝 Contributing
 
