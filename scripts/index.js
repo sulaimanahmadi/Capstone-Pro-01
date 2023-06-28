@@ -4,21 +4,21 @@ const featureSpeakers = [
     name: 'Rashid Khan',
     title: 'Focus on what you are Doing.',
     description: 'The pain you suffer today is the sign of tomorrow’s victory.',
-    featured_image: './img/speaker_01.png',
+    featured_image: './img/speaker_06.png',
     alt_message: 'Featured item-one',
   },
   {
     id: 2,
-    name: 'Usman Ahmadi',
+    name: 'Nazoo',
     title: 'We will help you to shape your muscles.',
     description: 'Nothing tastes as good as being fit feels. Success never comes to those who quit.',
-    featured_image: './img/speaker_02.png',
+    featured_image: './img/speaker_05.png',
     alt_message: 'Featired ite-two',
   },
 
   {
     id: 3,
-    name: 'Nazoo',
+    name: 'Rana Ahmadi',
     title: 'Persist Until Something Happens.',
     description: 'Focus Until Something Happens.Power, perseverance, and discipline.',
     featured_image: './img/speaker_03.png',
@@ -33,7 +33,7 @@ const featureSpeakers = [
     featured_image: './img/speaker_04.png',
     alt_message: 'featured item-four',
   },
-  
+
 ];
 
 const featuredSect = document.querySelector('#featured-section');
